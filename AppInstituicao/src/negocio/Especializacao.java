@@ -8,11 +8,13 @@ public class Especializacao extends Curso {
 		this.anoTerminoGraduação = anoTerminoGraducao;
 	}
 	
+	
 	public void show() {
-		System.out.println();
+		System.out.println("#Especialização");
 		super.show();	
-		System.out.printf("Termino da graduação: %d",
+		System.out.printf("Termino da graduação: %d\n",
 				anoTerminoGraduação);
+		System.out.println();
 		
 	}
 		
@@ -25,6 +27,8 @@ public class Especializacao extends Curso {
 	public void setAnoTerminoGraduação(int anoTerminoGraduação) {
 		this.anoTerminoGraduação = anoTerminoGraduação;
 	}
+
+	
 
 
 }
